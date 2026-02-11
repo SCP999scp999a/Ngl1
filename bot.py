@@ -1,3 +1,4 @@
+import os
 import discord
 from discord.ext import commands
 import aiohttp
@@ -5,7 +6,6 @@ import asyncio
 import random
 import string
 
-# ================== CONFIG ==================
 TOKEN = os.environ.get("TOKEN")
 ALLOWED_CHANNEL_ID = 1463714560816058654
 BACKEND_CHANNEL_ID = 1463722599468105972
